@@ -18,7 +18,8 @@ function searchPlayer() {
     "라위충": "Ryujehong",
     "쪼낙": "JJoNak",
     "퓨리": "Fury",
-    "제스처": "Gesture"
+    "제스처": "Gesture",
+    "프로비": "Probe"
   };
 
   let resolvedPlayer;
