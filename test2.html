@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>오버워치 캐릭터 검색</title>
+  <link rel="stylesheet" href="test2.css">
+  <link rel="stylesheet" href="real2.css">
+</head>
+<body>
+  <div class="container">
+    <h1>오버워치 선수 검색</h1>
+    <input class="real" type="text" id="playerInput" placeholder="예: 류제홍, 립, 준빈">
+    <button class="real" onclick="searchPlayer()">검색</button>
+  </div>
+
+   
+  
+  <br><br><br><br>
+  <div class="role-buttons">
+    <button onclick="showHeroes('ALL_Gamers_Global')">AGG</button>
+    <button onclick="showHeroes('Crazy_Raccon')">CR</button>
+    <button onclick="showHeroes('Old_ocean')">OCN</button>
+    <button onclick="showHeroes('Poker_Face')">PK</button>
+  </div>
+  <div class="role-buttons">
+    <button onclick="showHeroes('T1')">T1</button>
+    <button onclick="showHeroes('Team_Falcons')">TF</button>
+    <button onclick="showHeroes('VEC')">VEC</button>
+    <button onclick="showHeroes('ZETA_DIVISION')">ZETA</button>
+  </div>
+
+  <div id="heroList"></div>
+  <br><br><br><br>
+
+  <button class="back-button" onclick="location.href='real3.html'">메인 페이지로 돌아가기</button>
+
+
+  <script src="real2.js"></script>
+  <script src="test2.js"></script>
+</body>
+</html>

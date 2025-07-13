@@ -1,0 +1,44 @@
+.role-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 60px; /* 버튼 간 간격 넓게 */
+}
+
+.role-buttons button {
+  padding: 20px 40px;          /* 버튼 내부 여백 넓게 */
+  font-size: 20px;             /* 글씨 크기 증가 */
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  background-color: #4CAF50;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+  min-width: 160px;            /* 버튼 최소 너비 지정 (더 넓게 보이도록) */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.role-buttons button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);      /* 호버 시 확대 효과 */
+}
+
+#heroList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
